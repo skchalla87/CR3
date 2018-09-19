@@ -2,7 +2,7 @@ package algo.cr3;
 
 public class SearchRotatedArray {
 	
-	public static int serachRotArray1(int[] a, int key) {
+	public static int serachRotArray1(int[] a, int key) {//Coderust solution.
 		int low=0;int high=a.length-1; int mid=0;
 		System.out.println("Values of low,mid and high are:"+ low+" "+mid+" "+high);
 		while(high>low) {
@@ -32,7 +32,7 @@ public class SearchRotatedArray {
 		return -1;
 	}
  
-	public static int serachRotArray(int[] a, int key) {
+	public static int serachRotArray(int[] a, int key) {//skchalla solution
 		int low=0;int high=a.length-1; int mid=0;
 		System.out.println("Values of low,mid and high are:"+ low+" "+mid+" "+high);
 		while(high>low) {
